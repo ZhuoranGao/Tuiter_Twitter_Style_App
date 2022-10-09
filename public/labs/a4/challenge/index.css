@@ -27,11 +27,26 @@
     right:10px;
 }
 
+.wd-background{
+    background-color: black;
 
+}
 .wd-light-text{
-    color:lightgray;
+    color:lightgray!important;
 }
 .wd-nav-back{
-    background-color: black;
+    background-color: black !important;
+}
+.nav-text-active{
+    color:lightgray !important;
 }
 
+.nav-text-color{
+    color:gray !important;
+}
+.wd-dark-back{
+    background-color: dimgrey !important;
+}
+.wd-bold{
+    font-weight: bold;
+}
