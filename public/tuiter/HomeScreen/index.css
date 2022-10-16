@@ -1,0 +1,125 @@
+.wd-background{
+    background-color: black;
+    padding-left: 16px;
+    /*padding-right: 890px;*/
+    padding-top: 20px;
+}
+.wd-border {
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    /*padding-bottom: 12px;*/
+    border-color: rgb(47, 51, 54);
+    width:560px;
+}
+.wd-border-image {
+    border-width: 1px;
+    border-style: solid;
+    /*padding-left: 16px;*/
+    padding-right: 12px;
+    /*padding-top: 12px;*/
+    padding-bottom: 12px;
+    border-color: black;
+    float:left;
+}
+
+.wd-border-text {
+    position:relative;
+    left:5px;
+    top:-35px;
+    border-width: 1px;
+    border-style: solid;
+    /*padding-left: 16px;*/
+    /*padding-right: 12px;*/
+    /*padding-top: 12px;*/
+    padding-bottom: 12px;
+    border-color: black;
+    float:right;
+    width:504px;
+}
+
+
+.wd-border-image-2 {
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 60px;
+    /*padding-right: 12px;*/
+    /*padding-top: 12px;*/
+    padding-bottom: 12px;
+    border-color: black;
+    float:left;
+    position:relative;
+    top:-35px;
+}
+
+.wd-border-under-image {
+    position: relative;
+    top:-5px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: rgb(47, 51, 54);
+    width: 480px;
+    border-radius: 0 0 25px 25px;
+}
+
+.wd-border-right {
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    /*padding-top: 12px;*/
+    /*padding-bottom: 12px;*/
+    border-color: rgb(47, 51, 54);
+    float:right;
+}
+.float-done {
+    clear: both;
+}
+
+.wd-roundImage{
+    width:48px;
+    height:48px;
+    border-radius:200px;
+    /*align:left;*/
+    float: left;
+}
+
+
+
+.wd-image-2{
+    border-radius: 25px 25px 0 0;
+    border-width: 1px;
+    border-style: solid;
+    /*padding-left: 60px;*/
+    /*padding-right: 12px;*/
+    /*padding-top: 12px;*/
+    /*padding-bottom: 12px;*/
+    border-color: rgb(47, 51, 54);
+    float:left;
+
+}
+
+.wd-author{
+    font-size: 15px;
+    color:lightgray;
+    /*padding-top: 10px;*/
+}
+
+.flex-container {
+    position:relative;
+    left:60px;
+    width:404px;
+    top:-30px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1px;
+}
