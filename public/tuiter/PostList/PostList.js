@@ -2,7 +2,7 @@ export default   [
     {
         image1: '../../images/1.jpg',
         author: 'Elon Musk',
-        holder: 'elonmusk',
+        holder: 'muskmelon',
         time: '23h',
         content: 'Amazing show about @Inspiration4x mission',
         image2: '../../images/1.jpg',
@@ -19,7 +19,7 @@ export default   [
     {
         image1: '../../images/image2.jpg',
         author: 'New York Post',
-        holder: 'nypost',
+        holder: 'port',
         time: '23h',
         content: 'Amazing show about @Inspiration4x mission',
         image2: '../../images/image2.jpg',
