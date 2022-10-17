@@ -2,7 +2,7 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 
 import PostSummaryList from "../PostSummaryList/index.js";
-import Postmistress from "../PostList";
+import Postmistress from "../PostList/index.js";
 
 function homeComponent() {
     $('#wd-home').append(`
