@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Labs from "./labs";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <h1>Welcome to Web development fall 2022</h1>
-        <h2>This is branch for assignment2</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container">
+        <h1>Hello World!</h1>
+        <Labs/>
+      </div>
   );
 }
-
 export default App;
