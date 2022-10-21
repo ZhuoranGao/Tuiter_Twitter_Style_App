@@ -4,10 +4,12 @@ import ConditionalOutput
     from "./conditional-output";
 import TodoItem from "./todo/todo-item";
 import TodoList from "./todo/todo-list";
+import './todo/bootstrap/css/bootstrap.min.css'
+
 function Assignment6() {
     return (
-        <div>
-            <h1>Assignment 6</h1>
+        <div className='text-black bg-white'>
+            <h1 className='text-black bg-white'>Assignment 6</h1>
             <TodoList/>
             <TodoItem/>
             <ConditionalOutput/>

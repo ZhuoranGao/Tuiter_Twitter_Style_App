@@ -2,9 +2,9 @@ import Nav from "../../nav";
 
 function HelloWorld() {
     return (
-        <div>
+        <div  className='bg-white text-black'>
             <Nav/>
-            <h1>Hello World!</h1>
+            <h1 className='text-black bg-white'>Hello World!</h1>
         </div>
     );
 }

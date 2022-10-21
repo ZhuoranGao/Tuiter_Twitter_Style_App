@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootswatch/bootstrap.min.css';
 import './vendors/fontawesome/css/all.css';
-import 'https://kit.fontawesome.com/ca56badd13.js';
+import './vendors/fontawesome6.2/css/all.css';
+// import 'https://kit.fontawesome.com/ca56badd13.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
