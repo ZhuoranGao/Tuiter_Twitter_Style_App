@@ -8,6 +8,9 @@ import PostSummaryItem from "./post-summary-list/post-summary-item";
 import PostSummaryList from "./post-summary-list";
 import ExploreComponent from "./explore";
 import HomePostSummeryList from "./home/index.js";
+
+import {Routes, Route} from "react-router";
+
 function Tuiter() {
     return (
         <div className="row mt-2" >
@@ -17,8 +20,12 @@ function Tuiter() {
             </div>
             <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                  style={{"position": "relative"}}>
-                <ExploreComponent/>
-                <HomePostSummeryList/>
+
+                <Routes>
+                    <Route path="home"    element={<HomePostSummeryList/>}/>
+                    <Route path="explore" element={<ExploreComponent/>}/>
+                </Routes>
+
 
             </div>
             <div className="col-10 d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">

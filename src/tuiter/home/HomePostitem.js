@@ -32,7 +32,7 @@ const HomePostitem = ({home={"image1": "../../images/1.jpg",
                     <div className="wd-author">{home.author} <i
                         className="fa-solid fa-circle-check"></i><i className="fa-solid fa-ellipsis"
                                                                     style= {{color :"rgb(110,118,125)", float: 'right'}}></i><span
-                        style={{fontSize: "13px",color:"rgb(110, 118, 125)"}}>&nbsp@{home.holder}・{home.time}</span>
+                        style={{fontSize: "13px",color:"rgb(110, 118, 125)"}}>@{home.holder}・{home.time}</span>
                     </div>
                     <div className="wd-author">{home.content} </div>
                 </div>
