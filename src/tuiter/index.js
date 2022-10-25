@@ -6,6 +6,7 @@ import WhoToFollowListItem
 import WhoToFollowList from "./who-to-follow-list/index";
 import PostSummaryItem from "./post-summary-list/post-summary-item";
 import PostSummaryList from "./post-summary-list";
+import '../vendors/bootswatch/bootstrap.min.css';
 import ExploreComponent from "./explore";
 import HomePostSummeryList from "./home/index.js";
 
@@ -13,6 +14,7 @@ import {Routes, Route} from "react-router";
 
 function Tuiter() {
     return (
+
         <div className="row mt-2" >
             <div className="col-2 col-md-2 col-lg-1 col-xl-2">
                 <NavigationSidebar active="explore"/>
@@ -33,6 +35,7 @@ function Tuiter() {
             </div>
 
         </div>
+
 
     );
 }
