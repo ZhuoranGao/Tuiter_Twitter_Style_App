@@ -12,12 +12,12 @@ import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 
 const ProfileComponent = () => {
-    const profileArray = useSelector(
-        (state) => state.profiles);
+    // const profileArray = useSelector(
+    //     (state) => state.profiles);
     return(
         <>
 
-            <Profileitem profile={profileArray}/>
+            <Profileitem />
             {/*<Routes>*/}
 
             {/*    <Profileitem profile={profileArray}/>*/}

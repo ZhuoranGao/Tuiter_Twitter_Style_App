@@ -17,15 +17,23 @@ const profileSlice = createSlice({
                                      reducers: {
 
                                          updateProfile(state,action){
-                                             const profileIndex=state.findIndex((profile)=>profile._id===action.payload._id)
-                                            state[profileIndex]=action.payload
+                                              //  const profileIndex=state.name.findIndex((profile)=>profile._id===action.payload._id)
+                                              // state[profileIndex].profile=action.payload.profile
+                                             // console.log(state[profileIndex].profile)
 
-                                             state.firstName = action.payload.firstName;
-                                             state.lastName = action.payload.lastName;
-                                             state.location = action.payload.location;
-                                             state.bio = action.payload.bio;
-                                             state.dateOfBirth = action.payload.dateOfBirth;
+                                             // state.name = action.payload.name;
+                                             //
+                                             // state.location = action.payload.location;
+                                             // state.bio = action.payload.bio;
+                                             // state.dateOfBirth = action.payload.dateOfBirth;
+                                             // state = action.payload;
 
+                                                 state.name = action.payload.name;
+                                                 state.handle = action.payload.handle;
+                                                 state.bio = action.payload.bio;
+                                                 state.website = action.payload.website;
+                                                 state.location = action.payload.location;
+                                                 state.dateOfBirth = action.payload.dateOfBirth
 
                                          },
 
