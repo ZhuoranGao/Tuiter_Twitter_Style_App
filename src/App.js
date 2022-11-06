@@ -4,6 +4,9 @@ import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 // import './vendors/bootswatch/bootstrap.min.css';
+// <link href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
+//       rel="stylesheet"/>
+
 function App() {
   return (
       <BrowserRouter>

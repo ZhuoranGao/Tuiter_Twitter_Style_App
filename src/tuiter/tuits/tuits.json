@@ -1,0 +1,56 @@
+[
+  {
+    "_id":"234",
+    "topic": "musk",
+    "image": "../../images/1.jpg",
+    "userName": "Elon Musk",
+    "handle": "@muskmelon",
+    "time": "23h",
+    "content": "Amazing show about @Inspiration4x mission",
+    "image2": "../../images/1.jpg",
+    "content2":"German Chancellor Olaf Scholz has urged China to use its influence on Russia to stop the war in Ukraine",
+    "tuit":"The trip has sparked concern in Germany and elsewhere in Europe, after the Chinese leader recently cemented his grip on power.\n\nMr Scholz's visit to China is both short, at just 11 hours, and controversial.\n\nHe's the first Western leader to travel to Beijing since the global pandemic and the first to meet President Xi since he tightened his grip on power at the Communist Party National Congress last month.",
+    "replies": "22",
+    "retuits": "9",
+    "likes": "37",
+    "liked": true
+  },
+
+  {
+    "_id": "345",
+    "topic": "newyork",
+    "image": "../../images/image2.jpg",
+    "userName": "New York Post",
+    "handle": "@port",
+    "time": "23h",
+    "content": "Amazing show about @Inspiration4x mission",
+    "image2": "../../images/image2.jpg",
+    "content2":"French far-right MP De Fournas suspended for shouting",
+    "tuit":"A far-right MP has been given a 15-day ban from France's National Assembly for shouting \"they should go back to Africa\" as a black colleague talked about immigration.",
+    "replies": "212",
+    "retuits": "91",
+    "likes": "317",
+    "liked": false
+  },
+  {
+    "_id": "456",
+    "topic": "beijing",
+    "image": "../../images/2.jpg",
+    "userName": "Beijing Post",
+    "handle": "@beijing",
+    "time": "3h",
+    "content": "Amazing show about @Inspiration4x mission",
+    "image2": "../../images/image2.jpg",
+    "content2":"French far-right MP De Fournas suspended for shouting",
+    "tuit":"Three weeks ago, Aboriginal teenager Cassius Turvey was walking home from his Perth school with friends when a stranger allegedly pulled up in a utility vehicle and told the group to run.\n\nWhat happened next has shocked Australia and posed hard questions, many say, about pervasive racism in the country.\n\nPassengers in the car allegedly chased down the Aboriginal boys - who were wearing their school uniforms - before two were violently attacked.",
+    "replies": "245",
+    "retuits": "10",
+    "likes": "17",
+    "liked": true
+  }
+
+
+
+
+
+]
