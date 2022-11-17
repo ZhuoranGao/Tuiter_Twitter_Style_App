@@ -6,12 +6,13 @@ import "../../vendors/bootstrap/css/bootstrap.min.css";
 import "./index.css"
 import './TuitStats'
 import TuitStats from "./TuitStats";
-import {deleteTuit} from "./tuits-reducer";
-
+// import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 const TuitItem = ({tuit})  => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        // dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
 
@@ -27,7 +28,7 @@ const TuitItem = ({tuit})  => {
 
 
                 <div className="row">
-                    <div className="wd-author">{tuit.userName} <i
+                    <div className="wd-author">{tuit.username} <i
                         className="fa-solid fa-circle-check text-primary"></i><span
                         style={{fontSize: "13px",color:"black"}}>{tuit.handle}・{tuit.time}</span>
 {/*delete*/}

@@ -1,4 +1,6 @@
-import {createTuit} from "../tuits/tuits-reducer";
+// import {createTuit} from "../tuits/tuits-reducer";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 import React, {useState} from "react";
 import '../../vendors/bootstrap/css/bootstrap.min.css';
@@ -10,7 +12,7 @@ const WhatsHappening = () => {
             tuit: whatsHappening
         }
         console.log(newTuit);
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
     return (
         <div className="row">
