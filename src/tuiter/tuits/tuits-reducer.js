@@ -67,7 +67,12 @@ const tuitsSlice = createSlice({
                                        [createTuitThunk.fulfilled]:
                                            (state, { payload }) => {
                                                state.loading = false
-                                               state.tuits.push(payload)
+
+                                               state.tuits.push({
+                                                                    ...payload,
+                                                                    ...templateTuit,
+                                                                    _id: (new Date()).getTime(),
+                                                                })
                                            },
 
 
@@ -109,8 +114,12 @@ const tuitsSlice = createSlice({
 
 
                                        createTuit(state, action) {
-
-                                           state.unshift({
+                                           console.log({
+                                                           ...action.payload,
+                                                           ...templateTuit,
+                                                           _id: (new Date()).getTime(),
+                                                       })
+                                           return state.unshift({
                                                              ...action.payload,
                                                              ...templateTuit,
                                                              _id: (new Date()).getTime(),
